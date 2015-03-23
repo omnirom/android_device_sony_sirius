@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6b22818b_a8f1bdcb",
+        "filename": "omni.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000515
+      },
+      "writtenOn": "2015-03-23T17:56:07Z",
+      "side": 1,
+      "message": "same here: shinano-common",
+      "range": {
+        "startLine": 5,
+        "startChar": 40,
+        "endLine": 5,
+        "endChar": 42
+      },
+      "revId": "93b5f0b33e34b430295474f2ad34468634d6710d",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
+      "unresolved": false
+    }
+  ]
+}
