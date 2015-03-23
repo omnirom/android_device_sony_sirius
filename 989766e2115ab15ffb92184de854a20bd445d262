@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6b22818b_08e2d1d1",
+        "filename": "omni.dependencies",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1000008
+      },
+      "writtenOn": "2015-03-23T21:07:31Z",
+      "side": 1,
+      "message": "android_hardware_sony_timekeep",
+      "revId": "989766e2115ab15ffb92184de854a20bd445d262",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
+      "unresolved": false
+    }
+  ]
+}
