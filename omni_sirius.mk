@@ -25,7 +25,7 @@ TARGET_NO_DSPMANAGER := true
 $(call inherit-product, device/sony/sirius/aosp_d6503.mk)
 
 # Inherit Omni Shinano common device parts
-$(call inherit-product, device/sony/shinano-common/device_omni.mk)
+$(call inherit-product, device/sony/shinano-common/platform_omni.mk)
 
 # Inherit Omni GSM telephony parts
 $(call inherit-product, vendor/omni/config/gsm.mk)
