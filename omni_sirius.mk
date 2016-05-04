@@ -33,10 +33,6 @@ $(call inherit-product, vendor/omni/config/gsm.mk)
 # Inherit Omni product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 
-# Recovery
-PRODUCT_COPY_FILES += \
-    device/sony/sirius/recovery/root/etc/bootrec-device:recovery/root/etc/bootrec-device
-
 # Override Product Name for OmniROM
 PRODUCT_NAME := omni_sirius
 PRODUCT_MODEL := Xperia Z2
