@@ -12,22 +12,18 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Kernel
-TARGET_KERNEL_SOURCE := kernel/sony/msm
-
 # Bootanimation
-TARGET_BOOTANIMATION_SIZE := 960x640
+TARGET_BOOTANIMATION_SIZE := 1080x608
 
-# Don't use DSPManager
-TARGET_NO_DSPMANAGER := true
+# TWRP
+BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_23x41.h\"
+TW_THEME := portrait_hdpi
 
-# Inherit AOSP Shinano common device parts
+# Inherit AOSP sirius device parts
 $(call inherit-product, device/sony/sirius/aosp_d6503.mk)
 
-# Inherit Omni Shinano common device parts
-$(call inherit-product, device/sony/shinano-common/platform_omni.mk)
-
 # Inherit Omni GSM telephony parts
+$(call inherit-product, device/sony/common/radio.mk)
 $(call inherit-product, vendor/omni/config/gsm.mk)
 
 # Inherit Omni product configuration
@@ -36,3 +32,6 @@ $(call inherit-product, vendor/omni/config/common.mk)
 # Override Product Name for OmniROM
 PRODUCT_NAME := omni_sirius
 PRODUCT_MODEL := Xperia Z2
+
+# Assert
+TARGET_OTA_ASSERT_DEVICE := D6503,z2,sirius
